@@ -1,0 +1,179 @@
+@keyframes slidy 
+{
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}   
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 15s slidy infinite; 
+      z-index: 1;
+    }   
+
+ body
+ {
+  background: #edf0f5;
+  margin: 0;
+  padding: 0;
+ }  
+.bloc_page
+{
+  width: 100%;
+  
+}
+
+ header
+ {
+  background-image: url(greyzz.png); 
+   
+ }
+ h5
+ {
+   color: rgba(12, 28, 173, 0.938);
+ }
+h1
+{
+  color: rgb(199, 6, 6);
+}
+.tab a
+{
+  color: rgba(12, 28, 173, 0.938);
+}
+.tab 
+{
+  margin-left: 900px;
+  font-size: 28px
+  
+}
+
+.koh img
+{
+  width: 70%;
+  height: 60%;
+}
+a
+{
+  text-decoration: none;
+}
+
+#corps
+{
+  text-align: center;
+}
+.fond
+{
+  color: burlywood;
+}
+
+.ligne
+{
+  margin-bottom: 28px;
+  
+}
+.up
+{
+border-bottom: 1px solid  burlywood;
+width: 200px;
+margin: auto;
+}
+
+.upo
+{
+  border-bottom: 1px solid  burlywood;
+  width: 158px;
+  margin: auto;
+}
+
+#bloc
+{
+  display: flex;
+  width: 100%; 
+  margin: 20px auto;
+  padding: 20px 0px;
+}
+
+
+
+.blanc
+{
+  border: 1px solid black;
+}
+.bon
+{
+  margin-left: 33rem;
+}
+
+.seul
+{
+  margin-left: 30rem;
+}
+
+h1 h2  p 
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.para
+{
+  font-size: 25px;
+}
+
+#bloc img
+{
+  height: 300Px;
+  margin: 40px 40px 0px 40px;
+  box-sizing: border-box;
+  border: 2px solid  burlywood;
+
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+footer
+{
+  background-color: burlywood; 
+ 
+}
+
+@media screen and (max-width:1080px)
+{
+   #bloc
+   {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0rem;
+   }
+   .tab
+   {
+     margin-left: 0px;
+   }
+   .up, .upo
+   {
+     border: none;
+   }
+   .bon
+   {
+     margin-left: 0px;
+   }
+}
+.tone
+{
+  margin-left: 30rem;
+}

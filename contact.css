@@ -1,0 +1,178 @@
+@keyframes slidy 
+{
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}   
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 15s slidy infinite; 
+     
+    }   
+
+
+.tabo
+{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+
+}
+td
+{
+    font-size: 20px;
+}
+.bout
+{
+    color: white;
+    background-color: burlywood;
+    margin-left: 50rem;
+    font-size: 30px;
+    border-radius: px;
+}
+
+.bon
+{
+  margin-left: 33rem;
+}
+.tab 
+{
+  margin-left:900px;
+  font-size: 28px
+  
+}
+header
+ {
+   background-image: url(greyzz.png); 
+   
+ }
+
+ a
+ {
+   text-decoration: none;
+ }
+ a:hover
+{
+  text-decoration: underline;
+}
+h5
+{
+  color: rgba(12, 28, 173, 0.938);
+}
+h1
+{
+ color: rgb(199, 6, 6);
+}
+.tab a
+{
+ color: rgba(12, 28, 173, 0.938);
+}
+
+ footer
+{
+  background-color: burlywood;
+}
+
+@media screen and (max-width:1080px)
+{
+  .tab
+   {
+     margin-left: 0px;
+   }
+
+   .bon
+   {
+     margin-left: 0px;
+   }
+   .tabo
+   {
+     border: none;
+   }
+
+}
+
+
+
+
+
+
+
+/*    CONTAINER    */
+main {
+  background-image: url('../images/bg_contact.png');
+  display: flex;
+  justify-content: center;
+  padding:10% 30%;
+  
+}
+.contact {
+  width: 43.75rem;
+  border-radius: 2.5rem;
+}
+.header_contact {
+  text-align: center;
+  color: #fff;
+  padding: .625rem 1.25rem;
+  background-color: burlywood;
+  background-size: cover;
+  font-weight: bold;
+}
+.header_contact > h1 , p{
+  color: #000;
+}
+.main_contact {
+  padding: 1.25rem 2.5rem;
+  background: #fff;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 1.25rem 0;
+}
+.form input {
+  border-top: none;border-left: none;border-right: none;
+  padding-bottom: .625rem;
+  font-size: 1.125rem;
+}
+.form input:focus {
+  border-top: none;border-left: none;border-right: none;
+  padding-bottom: .625rem;
+  outline: none;
+}
+.form label {
+  text-align: end;
+  margin-right: 1.875rem;
+}
+.form textarea {
+  border-top: 0;border-right: none;border-left: none;
+}
+.form textarea:focus {
+  outline: none;
+}
+.button {
+  text-align: center;
+}
+.btn {
+  column-rule: #fff;
+  padding: .625rem 1.875rem;
+  font-size: 1.25rem;
+  background: burlywood;
+  border-radius:1.25rem;
+  border: none;
+  color: #fff;
+}
